@@ -73,6 +73,7 @@ It takes about two hours to build the device:
 
 3. Arduino Code
   [For more details see the code readme](code/README.md)
+  
   [And if problems persist the troubleshooting readme](troubleshooting/README.md)
 
 4. Fixing jumper cables
