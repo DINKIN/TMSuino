@@ -39,7 +39,7 @@ sudo chmod a+rw /dev/ttyACM0
   ![OK](../images/board-led13.png)
 
 
-#### If the LED is on and does not blink, go on to [fix all cables](../fixing/README.html).
+#### If the LED is on and does not blink, go on to [fix all cables](../fixing/README.md).
 
 #### If you have problems even after re-checking the wiring look into [Troubleshooting/Diagnostics](../troubleshooting/README.md)
 
