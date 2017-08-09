@@ -18,11 +18,21 @@ For those who need to draw it by hand, here is how to do that:
 
 Enter your measurement of the ear-to-ear length to calculate the lengths A,B and C:
 
-1. System: <select id="sys" onfocus="greyBandlen()"><option value="0">metric (cm):</option><option value="1">imperial (inch):</option></select>
-2. Ear-to-ear distance: <input type="text" id="bandlen" onchange="calcBandlen()" onfocus="greyBandlen()" value="31"/>
-3. Coil holder diameter: <input type="text" id="diam" onchange="calcBandlen()" onfocus="greyBandlen()" value="3.6"/>
-4. Calculate: <input type="button" value="Do it!" onclick="calcBandlen()" />
-5. <div id="calc_result">Result: A=?; B=?; C=?</div>
+```html
+<ol>
+<li>System: <select id="sys" onfocus="greyBandlen()"><option value="0">metric (cm):</option><option value="1">imperial (inch):</option></select>
+</li>
+<li>
+Ear-to-ear distance: <input type="text" id="bandlen" onchange="calcBandlen()" onfocus="greyBandlen()" value="31"/>
+</li>
+<li>
+Coil holder diameter: <input type="text" id="diam" onchange="calcBandlen()" onfocus="greyBandlen()" value="3.6"/>
+</li>
+<li>Calculate: <input type="button" value="Do it!" onclick="calcBandlen()" />
+<div id="calc_result">Result: A=?; B=?; C=?</div>
+</li>
+</ol>
+```
 
 The formulas used internally are: 
 ```javascript
@@ -96,6 +106,7 @@ Because now is the time to change the size if necessary.
 
 [Main Page](../README.md)
 
+```html
 <style>
         .disabled {
             color: #555555;
@@ -150,4 +161,4 @@ function ungreyBandlen() {
     for (var i=0; i < namelist.length; i++) document.getElementById(namelist[i]).classList.remove("disabled");
 }
 </script>
-
+```
