@@ -16,25 +16,8 @@ For those who need to draw it by hand, here is how to do that:
 
 #### Calculating distances A,B,C
 
-Enter your measurement of the ear-to-ear length to calculate the lengths A,B and C:
+Use your measurement of the ear-to-ear length to calculate the lengths A,B and C:
 
-```html
-<ol>
-<li>System: <select id="sys" onfocus="greyBandlen()"><option value="0">metric (cm):</option><option value="1">imperial (inch):</option></select>
-</li>
-<li>
-Ear-to-ear distance: <input type="text" id="bandlen" onchange="calcBandlen()" onfocus="greyBandlen()" value="31"/>
-</li>
-<li>
-Coil holder diameter: <input type="text" id="diam" onchange="calcBandlen()" onfocus="greyBandlen()" value="3.6"/>
-</li>
-<li>Calculate: <input type="button" value="Do it!" onclick="calcBandlen()" />
-<div id="calc_result">Result: A=?; B=?; C=?</div>
-</li>
-</ol>
-```
-
-The formulas used internally are: 
 ```javascript
 margin = 3 cm or 2 inch;
 A = (ear2ear - margin - diameterCoil)*0.366025;
@@ -105,60 +88,3 @@ Because now is the time to change the size if necessary.
 ## Continue with [wiring](../wiring/README.md)
 
 [Main Page](../README.md)
-
-```html
-<style>
-        .disabled {
-            color: #555555;
-            text-decoration: line-through;
-        }
-        .enabled {
-        }
-</style>
-
-<script type="text/javascript">
-
-var margin_cm = (3.0);
-var margin_in = (2.0);
-
-function calcBandlen() {
-    var margin = 0;
-    var unit = "unknown";
-    if (document.getElementById("sys").value == 0) {
-        margin = margin_cm;
-        unit = " cm";
-    } else {
-        margin = margin_in;
-        unit = " in";
-    }
-    var ear2ear = document.getElementById("bandlen").value;
-    var diameterCoil = document.getElementById("diam").value;
-    var d = ear2ear - margin - diameterCoil;
-    var x = 0.366025*d;
-    var a = x;
-    var c = Math.sqrt(Math.pow(a,2)-Math.pow(a*0.5,2));
-    var b = a*0.5;
-
-    var res_string = "Result: A=" + a.toFixed(2) + unit + "; ";
-    res_string += "B=" + b.toFixed(2) + unit + "; ";
-    res_string += "C=" + c.toFixed(2) + unit;
-
-    document.getElementById("calc_result").innerHTML = res_string;
-    ungreyBandlen();
-    //generate_svg(a_cm,b_cm,c_cm);
-}
-
-function greyBandlen() {
-    var namelist = ["calc_result"];
-    for (var i=0; i < namelist.length; i++) {
-        document.getElementById(namelist[i]).classList.add("btn");
-        document.getElementById(namelist[i]).classList.add("disabled");
-    }
-}
-
-function ungreyBandlen() {
-    var namelist = ["calc_result"];
-    for (var i=0; i < namelist.length; i++) document.getElementById(namelist[i]).classList.remove("disabled");
-}
-</script>
-```
