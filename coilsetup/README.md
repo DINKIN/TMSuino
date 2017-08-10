@@ -18,7 +18,7 @@ For those who need to draw it by hand, here is how to do that:
 
 Use your measurement of the ear-to-ear length to calculate the lengths A,B and C.
 
-Here is the [calculator on jsfiddle.net](https://jsfiddle.net/TMSuino/aajudjLj/)...
+Here is the [calculator on jsfiddle.net](https://jsfiddle.net/TMSuino/aajudjLj/embedded/result/)...
 
 ...or you can use these formulas:
 
