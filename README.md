@@ -73,7 +73,6 @@ It takes about two hours to build the device:
 
 3. Arduino Code
   [For more details see the code readme](code/README.md)
-  
   [And if problems persist the troubleshooting readme](troubleshooting/README.md)
 
 4. Fixing jumper cables
@@ -91,7 +90,7 @@ The desired effect would be called **"sobering"** - hinting the disruption of a 
 
 **This is no treatment plan - just a starting point for your own research efforts.** 
 
-When you end a sitting, check that the LED of the Arduino is still blinking slowly. Then you know it has not gone into error mode some time during the sitting.
+When you end a sitting, check that the LED of the Arduino is still on and _not_ blinking. Then you know it has not gone into error mode some time during the sitting.
 
 ## Rationale
 
