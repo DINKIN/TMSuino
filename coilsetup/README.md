@@ -16,7 +16,11 @@ For those who need to draw it by hand, here is how to do that:
 
 #### Calculating distances A,B,C
 
-Use your measurement of the ear-to-ear length to calculate the lengths A,B and C:
+Use your measurement of the ear-to-ear length to calculate the lengths A,B and C.
+
+Here is the [calculator on jsfiddle.net](https://jsfiddle.net/TMSuino/aajudjLj/)...
+
+...or you can use these formulas:
 
 ```javascript
 margin = 3 cm or 2 inch;
