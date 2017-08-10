@@ -65,17 +65,17 @@ It is worn like a cap:
 
 It takes about two hours to build the device:
 
-1. Making the cap
+1. Making the cap<br/>
   [For more details see coil setup procedure](coilsetup/README.md)
 
-2. Wiring
+2. Wiring<br/>
   [For more details see the wiring description](wiring/README.md)
 
-3. Arduino Code
-  [For more details see the code readme](code/README.md)
+3. Arduino Code<br/>
+  [For more details see the code readme](code/README.md)<br/>
   [And if problems persist the troubleshooting readme](troubleshooting/README.md)
 
-4. Fixing jumper cables
+4. Fixing jumper cables<br/>
   [See the details on fixing here](fixing/README.md)
 
 ## Application suggestions
