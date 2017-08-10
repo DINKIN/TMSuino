@@ -35,8 +35,10 @@ sudo chmod a+rw /dev/ttyACM0
 7. After a few seconds, the rightmost of the yellow LEDs should light up and stay constantly alight.
   If it blinks fast, one of the coil connections is broken or connected in the wrong way.
   In that case go back to wiring and check all connections.
-  
-  ![OK](../images/board-led13.png)
+
+  | OK | Error |
+  |----|----|  
+  | ![OK](../images/board-led13.png) | ![Error](../images/board-error.gif) |
 
 
 #### If the LED is on and does not blink, go on to [fix all cables](../fixing/README.md).
