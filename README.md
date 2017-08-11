@@ -39,7 +39,7 @@ Here's a picture of the thing:
 
 It is worn like a cap:
 
-![TMSuino on head](photos/how-to-wear-leftside.jpg)
+![TMSuino on head](photos/how-to-wear-rightside.jpg)
 
 ### Prerequisites
 

@@ -11,7 +11,7 @@ Of course, your are encouraged to encrypt your e-mails as well. Here is my [publ
 
 Please note that encrypting an e-mail only encrypts the content. Subject, sender and recipients are still visible to anybody.
 
-I cannot guarantee to answer each and every question. But I will try to keep you informed of important developments.
+I cannot guarantee to answer each and every question. But I will try to keep you informed of major developments.
 
 You are welcome to contribute, especially nicer pictures are dearly hoped for! If you made those, please upload them to a dropbox account, add a LICENSE.txt file (preferably CC0) and send me a link.
 
