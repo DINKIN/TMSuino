@@ -22,7 +22,7 @@ Check by lightly tugging the cables. The tension should be held by the tape and 
 
 Now fix the Arduino board to the cap as shown here. Only fix the side opposite of the USB plug with one piece of tape.
 
-![Arduino taped to cap](../photos/arduinp-taped-to-cap.jpg)
+![Arduino taped to cap](../photos/arduino-taped-to-cap.jpg)
 
 Make sure not to tug the USB cable, otherwise the arduino might get loose.
 
