@@ -20,15 +20,15 @@ Stick some tape around the cable and then tape it to the coil holder. Here's a m
 
 Check by lightly tugging the cables. The tension should be held by the tape and not reach the jumper plugs at all.
 
-Now fix the Arduino board on one of the coil holders.
-Use a loop of tape to stick it together.
+Now fix the Arduino board to the cap as shown here. Only fix the side opposite of the USB plug with one piece of tape.
 
-![Tape loop on Arduino underside](../photos/tape-on-arduino-backside.jpg)
-![Arduino on coil holder](../photos/arduino-taped-to-coil.jpg)
+![Arduino taped to cap](../photos/arduinp-taped-to-cap.jpg)
+
+Make sure not to tug the USB cable, otherwise the arduino might get loose.
 
 Final result:
 
-![TMSuino](../photos/the-thing.jpg)
+![TMSuino](../photos/the-thing4.jpg)
 
 # You did it! 
 

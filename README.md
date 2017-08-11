@@ -35,7 +35,7 @@ The device requires no soldering, tools needed are a pair of scissors and a meas
 
 Here's a picture of the thing:
 
-![TMSuino](photos/the-thing2.jpg)
+![TMSuino](photos/the-thing4.jpg)
 
 It is worn like a cap:
 
