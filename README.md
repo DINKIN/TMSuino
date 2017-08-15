@@ -101,7 +101,7 @@ But you don't need to know this to build and use the device.
 
 For anything to be low-cost it must be open-source. Otherwise third parties will always take their share.
 
-Therefore this work is licensed under CC0; putting all of it into the public domain. See the [full text of CC0 here](License-CC0.txt)
+Therefore this work is licensed under CC0; putting all of it into the public domain. See the [full text of CC0 here](License-CC0.txt).
 
 ## Legal issue
 

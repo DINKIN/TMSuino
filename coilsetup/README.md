@@ -39,15 +39,29 @@ Furthermore, if your coils have a large inner diameter center holes might have a
 ## Prepared pattern templates for printing
 
 Following patterns are made for 3.6cm coil holder diameter and 19mm tape width.
-Make sure printer dialogs' page setup is set to landscape:
-- [coilpattern-29cm-18.9in-A4.pdf](../print-patterns/coilpattern-29cm-18.9in-A4.pdf)
-- [coilpattern-30cm-19.5in-A4.pdf](../print-patterns/coilpattern-30cm-19.5in-A4.pdf)
-- [coilpattern-31cm-20.2in-A4.pdf](../print-patterns/coilpattern-31cm-20.2in-A4.pdf)
-- [coilpattern-32cm-20.8in-A4.pdf](../print-patterns/coilpattern-32cm-20.8in-A4.pdf)
-- [coilpattern-33cm-21.5in-A4.pdf](../print-patterns/coilpattern-33cm-21.5in-A4.pdf)
-- [coilpattern-34cm-22.1in-A4.pdf](../print-patterns/coilpattern-34cm-22.1in-A4.pdf)
-- [coilpattern-35cm-22.8in-A4.pdf](../print-patterns/coilpattern-35cm-22.8in-A4.pdf)
+Make sure printer dialogs' page setup is set to landscape.
 
+Pattern with 1cm margin:
+
+- [coilpattern-28.00cm-11.02in-A4-margin1.pdf](../print-patterns/coilpattern-28.00cm-11.02in-A4-margin1.pdf)
+- [coilpattern-29.00cm-11.42in-A4-margin1.pdf](../print-patterns/coilpattern-29.00cm-11.42in-A4-margin1.pdf)
+- [coilpattern-30.00cm-11.81in-A4-margin1.pdf](../print-patterns/coilpattern-30.00cm-11.81in-A4-margin1.pdf)
+- [coilpattern-31.00cm-12.20in-A4-margin1.pdf](../print-patterns/coilpattern-31.00cm-12.20in-A4-margin1.pdf)
+- [coilpattern-32.00cm-12.60in-A4-margin1.pdf](../print-patterns/coilpattern-32.00cm-12.60in-A4-margin1.pdf)
+- [coilpattern-33.00cm-12.99in-A4-margin1.pdf](../print-patterns/coilpattern-33.00cm-12.99in-A4-margin1.pdf)
+- [coilpattern-34.00cm-13.39in-A4-margin1.pdf](../print-patterns/coilpattern-34.00cm-13.39in-A4-margin1.pdf)
+- [coilpattern-35.00cm-13.78in-A4-margin1.pdf](../print-patterns/coilpattern-35.00cm-13.78in-A4-margin1.pdf)
+
+Pattern with 3cm margin:
+
+- [coilpattern-28.00cm-11.02in-A4-margin3.pdf](../print-patterns/coilpattern-28.00cm-11.02in-A4-margin3.pdf)
+- [coilpattern-29.00cm-11.42in-A4-margin3.pdf](../print-patterns/coilpattern-29.00cm-11.42in-A4-margin3.pdf)
+- [coilpattern-30.00cm-11.81in-A4-margin3.pdf](../print-patterns/coilpattern-30.00cm-11.81in-A4-margin3.pdf)
+- [coilpattern-31.00cm-12.20in-A4-margin3.pdf](../print-patterns/coilpattern-31.00cm-12.20in-A4-margin3.pdf)
+- [coilpattern-32.00cm-12.60in-A4-margin3.pdf](../print-patterns/coilpattern-32.00cm-12.60in-A4-margin3.pdf)
+- [coilpattern-33.00cm-12.99in-A4-margin3.pdf](../print-patterns/coilpattern-33.00cm-12.99in-A4-margin3.pdf)
+- [coilpattern-34.00cm-13.39in-A4-margin3.pdf](../print-patterns/coilpattern-34.00cm-13.39in-A4-margin3.pdf)
+- [coilpattern-35.00cm-13.78in-A4-margin3.pdf](../print-patterns/coilpattern-35.00cm-13.78in-A4-margin3.pdf)
   
 ## Pattern cut-out
 
