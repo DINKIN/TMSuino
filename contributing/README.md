@@ -24,5 +24,5 @@ _Some questions might be of interest for many. I might put my answer in this sec
 
 1. Wouldn't it improve the device to change the frequency of coil activation? The Arduino can achieve more here. Wouldn't matching a brain frequency improve the results even further?
 
-**_Hold on_**! Do not experiment wildly with high frequencies. That is dangerous! You can really fuck-up your brain with that!
+**_Hold on_**! Do not experiment wildly with high frequencies. That is dangerous! You can really damage your brain with that!
 The typical theories do not apply here. It's all about creating a balance between the two halves of the brain. And this is best achieved with only a **_slight tickle_**.
