@@ -46,7 +46,8 @@ Especially the two outer coils are in danger of being twisted if strips of cloth
 
 It is needed to make the taping viable (we don't want to stick everything to the table). It also makes it very clear what is intended and just makes things easier.
 Since the coils are put on top of the paper the intended orientation of each coil is always visible, preventing unnoticed fold downs. 
-Of course, you could use a laser cutter and/or some other material than paper - which would allow you to use less tape or no tape at all. (the current pdf and svg files won't work with laser cutters though)
+Of course, you could use a laser cutter and/or some other material than paper - which would allow you to use less tape or no tape at all. 
+The SVG files created by the [pattern maker](https://github.com/TMSuino/pattern-maker) can be used as a starting point for laser cutter files.
 
 ### USB power / battery
 
