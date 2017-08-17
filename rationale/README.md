@@ -14,7 +14,7 @@ The six coils are intentionally over-sized. For three reasons:
 
 If you can achieve these constraints in any other way  (e.g. bald applicant and no problems with soldering), you can even use a 0.1mm enameled copper wire and wind it into a coil yourself - effectively reducing costs by another $10.
 My current spec for coils is: field strength 0.82-0.85 mH, wire thickness 0.6 mm, holder diameter 35-40mm, resistance 1.0-1.3 Ohm, wire ends tin-coated, inner diameter 5-25mm.
-Of course this mentioned field strength is never achieved by the Arduino. How strong the field actually is has to be carefully measured with appropriate equipment. That is still an open issue.
+Of course this mentioned field strength is never achieved by the Arduino. How strong the field actually is has to be carefully measured with appropriate equipment. This is still an open issue.
 
 ### Arduino
 
