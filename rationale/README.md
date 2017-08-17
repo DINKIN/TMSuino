@@ -28,7 +28,7 @@ If you are able to solder lasting connections you can just connect all coils to 
 Soldering is a dramatic hurdle - for normal people. So jumper cables are a must.
 
 Typical jumper cables included in Arduino kits and available at hobbyist stores are too short to keep the arduino off the head.
-It would be much more convenient to keep the Arduino off the head, put it onto a table or hold it in a hand - and have long cables to the coils on the head. If someone discovers a distributor for cables of 1.2m length (for a decent price) - make sure to let me know!
+As it turns out that is not much of a hurdle. If the USB cable is too heavy, a direct 9V DC power adapter typically comes with lighter cabling.
 
 ### Cloth tape
 
@@ -59,10 +59,10 @@ There are a few things I would like to change.
 
 * Connecting the coils is currently a big opportunity for mistakes. I believe it is too easy to confuse outer- and inner wire ends, and have problems with plugging the jumpers deep enough. And keeping the jumpers on the wire ends by huge amounts of tape is not optimal.
 
-* As noted above the analog inputs are just a convenient way to connect the coils to ground. If it were possible to connect the coils' ground lines in a ring topology just one ground line needs to go to the arduino. Achieving that would considerably reduce the cabling chaos.
+A solution would be to equip each coil with a LED. I envision a tiny PCB with two pins, a resistor and a LED which is soldered onto the coil holder by its manufacturer.
+Due to the LED, the cable order cannot be confused. And people could visibly see if their device is plugged in correct order.
 
-Both issues could be resolved with coils and coil holders sporting non-confusable safety clips and matching cables.
-Again if you find a distributor/producer of such parts - make sure to let me know.
+Again if you find a distributor/producer willing and capable to produce such parts - make sure to let me know.
 
 
 [Main Page](../README.md)
