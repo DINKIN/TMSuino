@@ -3,7 +3,7 @@ A brain region has been identified that, if stimulated, cancels bipolar disorder
 Proof to this is that there are no brain scans of bipolar disorder patients available to the public.
 See for yourself: Here is the [list of publicly available brain scan datasets](http://www.nature.com/neuro/journal/v17/n11/fig_tab/nn.3818_T1.html).
 There's a lot, sometimes thousands of scans, for practically any mental ailment known to man - **except bipolar disorder**.
-Clearly someone doesn't want that data to be known. I believe this is done to keep the number of competing researchers at bay.
+I believe this is done to keep the number of competing researchers at bay.
 
 Interestingly this situation is going on for several years now. It seems that drugs for activating said brain region are very hard to develop.
 
