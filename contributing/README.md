@@ -2,14 +2,7 @@
 Contributing and Questions
 ========
 
-If you have questions you can reach me via e-mail [info@tmsuino.org](mailto:info@tmsuino.org) but please keep in mind that I cannot and will not give medical advice. I will only answer to those mails that have a **public** key attached, so I can easily encrypt my answer.
-I believe this is prudent and in your best interests.
-
-Furthermore putting an e-mail address into the open typically leads to a lot of spam. I believe spammers won't send public keys with their mails, leaving me an easy option to filter that stuff.
-
-Of course, your are encouraged to encrypt your e-mails as well. Here is my [public key](tmsuino-public-key.asc) also available via Enigmail Keyserver (Fingerprint A4BF A8D1 9654 0268 D743 B873 6AE3 7A82 238A B985).
-
-Please note that encrypting an e-mail only encrypts the content. Subject, sender and recipients are still visible to anybody.
+If you have questions you can reach me via e-mail [info@tmsuino.org](mailto:info@tmsuino.org) but please keep in mind that I cannot and will not give medical advice.
 
 I cannot guarantee to answer each and every question. But I will try to keep you informed of major developments.
 
