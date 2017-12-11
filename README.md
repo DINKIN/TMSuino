@@ -115,7 +115,3 @@ For legal reasons every person that wants to try this device has to build it by 
 
 Are welcome. Please see the [contributing and questions section](contributing/README.md) for more. 
 
-## Communication
-
-A proposal can be found in [our communications section](communication/README.md).
-
