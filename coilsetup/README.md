@@ -8,35 +8,7 @@ The lengths of all the bands connecting the coils are all the same. This is by d
 The size of the pattern should be selected so that the outer coils are just above the ears.
 Measure the distance between the ears along the top of the head. Use a measuring tape if available, use a piece of paper and ruler on the paper if not.
 
-If you have a printer avaiable, you can then select one of the following [prepared templates](#prepared-pattern-templates-for-printing), print it and do the cut-out.
-
-For those who need to draw it by hand, here is how to do that:
-
-## Drawing the pattern template by hand
-
-#### Calculating distances A,B,C
-
-Use your measurement of the ear-to-ear length to calculate the lengths A,B and C.
-
-Here is the [calculator on jsfiddle.net](https://jsfiddle.net/TMSuino/aajudjLj/embedded/result/)...
-
-...or you can use these formulas:
-
-```javascript
-margin = 3 cm or 2 inch;
-A = (ear2ear - margin - diameterCoil)*0.366025;
-B = a*0.5;
-C = Math.sqrt(Math.pow(a,2)-Math.pow(a*0.5,2));
-```
-
-#### Drawing
-
-![pattern with construction lines shown](../images/handdrawing-construction-lines.png)
-
-The bands between the coil circles should be wide enough so the tape does not overflow. Otherwise the tape would later stick to the hair.
-Furthermore, if your coils have a large inner diameter center holes might have a use for you. 
-
-## Prepared pattern templates for printing
+Just print one of following pattern templates, matching your size, and cut it out.
 
 Following patterns are made for 3.6cm coil holder diameter and 19mm tape width.
 Make sure printer dialogs' page setup is set to landscape.
