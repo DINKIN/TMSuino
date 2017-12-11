@@ -30,7 +30,6 @@ _A low-cost arduino-based TMS ([transcranial magnetic stimulation](https://en.wi
 - [Rationale](#rationale)
 - [License and Disclaimer](#license-and-disclaimer)
 - [Contributions and Questions](#contributions-and-questions)
-- [Communication](#communication)
 
 ## Getting Started
 
