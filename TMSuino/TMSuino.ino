@@ -20,7 +20,7 @@
 const int outpins[6] = { O1, O2, O3, O4, O5, O6 };
 const int inpins[6] = { I1, I2, I3, I4, I5, I6 };
 int value = 0;
-const int threshold = 1020;
+const int threshold = 1015;
 int ledState = 0;
 int cnt = 2;
 
@@ -65,7 +65,7 @@ void activate(int coil) {
 //argument is 1..6, *not* 0..5
 void writeAndCheckInput(int coil) {
     activate(coil);
-    delay(50); //wait for the inpin to pull up
+    delay(20); //wait for the inpin to pull up
     value = analogRead(inpins[coil-1]);
     //Serial.println(value);
     if (value < threshold) error();
@@ -101,6 +101,6 @@ void loop() {
   cnt = cnt + 1;
   if (cnt >= 6) cnt=2;
   writeAndCheckInput(cnt);
-  delay(200); //overall delay should be close to 250ms
+  delay(10);
 }
 
