@@ -41,13 +41,9 @@ _A low-cost arduino-based TMS ([transcranial magnetic stimulation](https://en.wi
 
 Despite over 30 years of activity and over 500 patents **transcranial magnetic stimulation** hasn't yet found broad adoption.
 
-It is my personal opinion that the reasons for this are two-fold:
+It is my personal opinion that the reasons for this are _high costs_ - due to small scale production.
 
-1. On-going dispute about it being a placebo effect - due to a lack of provable scientific explanations
-
-2. High costs - due to a focus on complex research devices
-
-This projects' focus is on the second point: Drastically cutting down costs.
+This projects' focus is on exactly that: Drastically cutting down costs.
 
 This is achieved using an Arduino UNO as the main driver module. Overall cost of parts is below 63 Euros ($75 as of August 2017), but shipping increases that to about 100,- Euros/Dollars.
 
