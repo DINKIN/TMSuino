@@ -1,7 +1,12 @@
+Please use the latest release [TMSuino3](github.com/TMSuino/TMSuino3)
+=======
+
+**This project is outdated and kept for refernce only**
 
 A brain region has been identified that, if stimulated, cancels bipolar disorder.
 Proof to this is that there are no brain scans of bipolar disorder patients available to the public.
-See for yourself: Here is the [list of publicly available brain scan datasets](http://www.nature.com/neuro/journal/v17/n11/fig_tab/nn.3818_T1.html).
+See for yourself: Here is the [list of publicly available brain scan datasets (page 4, table 1)](https://www.researchgate.net/profile/Krzysztof_Gorgolewski/publication/267452254_Making_big_data_open_Data_sharing_in_neuroimaging/links/544ffaae0cf249aa53da88b6.pdf).
+
 There's a lot, sometimes thousands of scans, for practically any mental ailment known to man - **except bipolar disorder**.
 I believe this is done to keep the number of competing researchers at bay.
 
@@ -27,6 +32,7 @@ _A low-cost arduino-based TMS ([transcranial magnetic stimulation](https://en.wi
   - [The Picture](#picture)
   - [Prerequisites](#prerequisites)
 - [Building it](#building-it)
+- [Concerns](#concerns)
 - [Rationale](#rationale)
 - [License and Disclaimer](#license-and-disclaimer)
 - [Contributions and Questions](#contributions-and-questions)
@@ -95,6 +101,12 @@ It takes about two hours to build the device:
 
 4. Fixing jumper cables<br/>
   [See the details on fixing here](fixing/README.md)
+
+## Concerns
+
+Some people might be concerned about putting magnetic fields on the brain. [Have look at this device](https://uniavisen.dk/en/an-inventors-triumph-and-frustration/). 
+
+That's used on patients, successfully so. TMSuino's coils are much smaller.
 
 ## Rationale
 
