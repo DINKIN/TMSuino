@@ -79,7 +79,11 @@ Then, since the wires are bare and could make contact to each other tape one of 
 
 ![](../photos/blank-wires-partly-taped.jpg)
 
-As you can see I already connected the arduino, that's your next step as well. Go on to test your connections.
+# Adding the buzzer
+
+The buzzer is intended to sound a short beeping sequence at startup and a continuos beep if the device is stuck in error mode.
+Use a jumper cable to connect the plus side of the buzzer to arduino pin 2.
+And another jumper cable to connect the minus side of the buzzer to an arduino GND pin.
 
 # Continue with [Arduino Code](../code/README.md)
 

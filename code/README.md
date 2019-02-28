@@ -32,9 +32,9 @@ sudo chmod a+rw /dev/ttyACM0
   
   There is a row of three yellow LEDs on the board. The two leftmost yellow LEDs on the board should flicker for a short moment, that's the upload.
   
-7. After a few seconds, the rightmost of the yellow LEDs should light up and stay constantly alight.
-  If it blinks fast, one of the coil connections is broken or connected in the wrong way.
-  In that case go back to wiring and check all connections.
+7. After a few seconds, the rightmost of the yellow LEDs should light up and stay constantly alight, you should also hear a sequence of three beeps.
+  If it blinks fast, and the beeping is constant, one of the coil connections is broken or connected in the wrong way.
+  In that case go back to wiring and check all connections. Hit the arduino's reset button afterwards to restart the self-check.
 
   | OK | Error |
   |----|----|  

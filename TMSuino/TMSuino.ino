@@ -15,13 +15,28 @@
 #define I6 (A5)
 
 #define LED (13)
+#define BUZZER (2)
 
 const int outpins[6] = { O1, O2, O3, O4, O5, O6 };
 const int inpins[6] = { I1, I2, I3, I4, I5, I6 };
 int value = 0;
-const int threshold = 1020;
+const int threshold = 1015;
 int ledState = 0;
 int cnt = 2;
+
+void beep() {
+digitalWrite(BUZZER, HIGH);
+delay(60);
+digitalWrite(BUZZER, LOW);
+delay(100);
+}
+
+void beeeep() {
+digitalWrite(BUZZER, HIGH);
+delay(300);
+digitalWrite(BUZZER, LOW);
+delay(150);
+}
 
 void toggleLED() {
     ledState = 1 - ledState;
@@ -29,6 +44,7 @@ void toggleLED() {
 }
 
 void error() {
+    digitalWrite(BUZZER, HIGH);
     //endless loop toggling LED
     while (true) {
         toggleLED();
@@ -49,7 +65,7 @@ void activate(int coil) {
 //argument is 1..6, *not* 0..5
 void writeAndCheckInput(int coil) {
     activate(coil);
-    delay(50); //wait for the inpin to pull up
+    delay(20); //wait for the inpin to pull up
     value = analogRead(inpins[coil-1]);
     //Serial.println(value);
     if (value < threshold) error();
@@ -65,6 +81,8 @@ void setup() {
   //Serial.begin(9600);
   pinMode(LED, OUTPUT);
   digitalWrite(LED, LOW);
+  pinMode(BUZZER, OUTPUT);
+  digitalWrite(BUZZER, LOW);
   
   for (int i=0; i < 6; i++) {
       pinMode(outpins[i], OUTPUT);
@@ -75,6 +93,7 @@ void setup() {
   activate(1);
   activate(6);
   digitalWrite(LED, HIGH);
+  beeeep(); beep(); beeeep();
 }
 
 void loop() {
@@ -82,6 +101,6 @@ void loop() {
   cnt = cnt + 1;
   if (cnt >= 6) cnt=2;
   writeAndCheckInput(cnt);
-  delay(200); //overall delay should be close to 250ms
+  delay(10);
 }
 
